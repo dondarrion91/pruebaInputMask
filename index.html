@@ -8,8 +8,16 @@
     </head>
     <body>
         <div id="app">
-            <input type="text" ref="inputmask" v-model="value" />
-            {{ value }}
+            <form>
+                <div>
+                    <input type="text" ref="inputmask1" v-model="value" />
+                    {{ value }}
+                </div>
+                <div>
+                    <input type="text" ref="inputmask2" v-model="phone" />
+                    {{ phone }}
+                </div>
+            </form>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
